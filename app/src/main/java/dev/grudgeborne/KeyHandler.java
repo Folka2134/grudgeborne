@@ -19,19 +19,15 @@ public class KeyHandler implements KeyListener {
 
     if (code == KeyEvent.VK_W) {
       upPressed = true;
-      System.out.println("up: " + upPressed);
     }
     if (code == KeyEvent.VK_A) {
       leftPressed = true;
-      System.out.println("left: " + leftPressed);
     }
     if (code == KeyEvent.VK_S) {
       downPressed = true;
-      System.out.println("down: " + downPressed);
     }
     if (code == KeyEvent.VK_D) {
       rightPressed = true;
-      System.out.println("right: " + rightPressed);
     }
 
   }
