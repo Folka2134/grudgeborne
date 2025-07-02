@@ -1,4 +1,4 @@
-package dev.grudgeborne;
+package dev.grudgeborne.input;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;

@@ -1,4 +1,4 @@
-package dev.grudgeborne;
+package dev.grudgeborne.view;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -7,7 +7,9 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-class GamePanel extends JPanel implements Runnable {
+import dev.grudgeborne.input.KeyHandler;
+
+public class GamePanel extends JPanel implements Runnable {
   final int defaultTileSize = 16; // 16x16 tiles
   final int scale = 3; // 3x scaling
   final int tileSize = defaultTileSize * scale; // 48x48 tiles
@@ -26,7 +28,7 @@ class GamePanel extends JPanel implements Runnable {
   int playerY = 100;
   int playerSpeed = 4;
 
-  GamePanel() {
+  public GamePanel() {
     this.setPreferredSize(new Dimension(screenWidth, screenHeight));
     this.setBackground(Color.black);
     this.setDoubleBuffered(true);

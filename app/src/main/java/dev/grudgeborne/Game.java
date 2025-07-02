@@ -5,6 +5,8 @@ package dev.grudgeborne;
 
 import javax.swing.JFrame;
 
+import dev.grudgeborne.view.GamePanel;
+
 public class Game {
   public static void main(String[] args) {
     JFrame frame = new JFrame("Grudge Born");
